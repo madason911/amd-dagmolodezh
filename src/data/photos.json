@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "src": "/images/gallery/cultural-event-1.jpg",
+    "alt": "Культурное мероприятие",
+    "title": "День культуры Дагестана",
+    "category": "events"
+  },
+  {
+    "id": "2", 
+    "src": "/images/gallery/traditional-dance-1.jpg",
+    "alt": "Традиционные танцы",
+    "title": "Лезгинка на празднике",
+    "category": "culture"
+  },
+  {
+    "id": "3",
+    "src": "/images/gallery/community-meeting-1.jpg", 
+    "alt": "Встреча сообщества",
+    "title": "Общее собрание",
+    "category": "meetings"
+  },
+  {
+    "id": "4",
+    "src": "/images/gallery/youth-event-1.jpg",
+    "alt": "Молодёжное мероприятие", 
+    "title": "Встреча молодёжи",
+    "category": "youth"
+  },
+  {
+    "id": "5",
+    "src": "/images/gallery/cooking-class-1.jpg",
+    "alt": "Мастер-класс по кулинарии",
+    "title": "Готовим хинкал",
+    "category": "education"
+  },
+  {
+    "id": "6",
+    "src": "/images/gallery/traditional-crafts-1.jpg",
+    "alt": "Традиционные ремёсла",
+    "title": "Выставка ремёсел",
+    "category": "culture"
+  },
+  {
+    "id": "7",
+    "src": "/images/gallery/new-year-2023.jpg",
+    "alt": "Новогодний праздник",
+    "title": "Новый год вместе",
+    "category": "events"
+  },
+  {
+    "id": "8",
+    "src": "/images/gallery/mountain-picnic-1.jpg",
+    "alt": "Пикник на природе", 
+    "title": "Выезд на природу",
+    "category": "recreation"
+  }
+]

@@ -1,0 +1,1 @@
+export { Contacts } from './index.tsx'
