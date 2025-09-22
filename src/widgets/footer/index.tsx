@@ -12,7 +12,7 @@ export function Footer() {
             <div className="flex items-center space-x-3 mb-4">
               <div className="w-12 h-12 hover:scale-110 transition-transform duration-300 relative overflow-hidden rounded-lg">
                 <Image
-                  src="/images/logo.jpg"
+                  src="/images/logo.png"
                   alt="АМД Логотип"
                   width={48}
                   height={48}

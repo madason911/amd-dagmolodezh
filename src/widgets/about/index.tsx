@@ -10,8 +10,12 @@ export function About() {
   ]
 
   return (
-    <section id="about" className="py-16 bg-white section-shadow">
-      <Container>
+    <section id="about" className="py-16 bg-white section-shadow relative overflow-hidden">
+      <div className="absolute inset-0 flex justify-center">
+        <div className="max-w-7xl w-full h-full" style={{backgroundImage: 'url(/svg/mountain.svg)', backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}></div>
+      </div>
+      <div className="absolute inset-0 bg-white/80"></div>
+      <Container className="relative z-10">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold text-primary mb-8 text-center animate-fade-in-up">
             О нашей ассоциации

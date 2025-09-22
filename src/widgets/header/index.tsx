@@ -28,13 +28,13 @@ export function Header() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
   return (
-    <header className="bg-white shadow-sm fixed w-full top-0 z-50 animate-slide-in-up">
+    <header className="bg-white/50 backdrop-blur-sm shadow-sm fixed w-full top-0 z-50 animate-slide-in-up">
       <Container>
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-3 animate-fade-in-left">
             <div className="w-10 h-10 hover:scale-110 transition-transform duration-300 relative overflow-hidden rounded-lg">
               <Image
-                src="/images/logo.jpg"
+                src="/images/logo.png"
                 alt="АМД Логотип"
                 width={40}
                 height={40}
@@ -42,7 +42,7 @@ export function Header() {
                 priority
               />
             </div>
-            <span className="font-semibold text-primary">Ассоциация молодежи Дагестана</span>
+            <span className="font-semibold text-primary">АМД</span>
           </div>
           
           <nav className="hidden md:flex items-center space-x-6 animate-fade-in-right">
@@ -52,7 +52,7 @@ export function Header() {
                 activeSection === 'about' ? 'text-accent' : 'text-gray-700 hover:text-accent'
               }`}
             >
-              О нас
+              О НАС
               <span className={`absolute -bottom-1 left-0 h-0.5 bg-accent transition-all duration-300 ${
                 activeSection === 'about' ? 'w-full' : 'w-0 group-hover:w-full'
               }`}></span>
@@ -63,7 +63,7 @@ export function Header() {
                 activeSection === 'events' ? 'text-accent' : 'text-gray-700 hover:text-accent'
               }`}
             >
-              События
+              СОБЫТИЯ
               <span className={`absolute -bottom-1 left-0 h-0.5 bg-accent transition-all duration-300 ${
                 activeSection === 'events' ? 'w-full' : 'w-0 group-hover:w-full'
               }`}></span>
@@ -74,7 +74,7 @@ export function Header() {
                 activeSection === 'gallery' ? 'text-accent' : 'text-gray-700 hover:text-accent'
               }`}
             >
-              Галерея
+              ГАЛЕРЕЯ
               <span className={`absolute -bottom-1 left-0 h-0.5 bg-accent transition-all duration-300 ${
                 activeSection === 'gallery' ? 'w-full' : 'w-0 group-hover:w-full'
               }`}></span>
@@ -85,7 +85,7 @@ export function Header() {
                 activeSection === 'contacts' ? 'text-accent' : 'text-gray-700 hover:text-accent'
               }`}
             >
-              Контакты
+              КОНТАКТЫ
               <span className={`absolute -bottom-1 left-0 h-0.5 bg-accent transition-all duration-300 ${
                 activeSection === 'contacts' ? 'w-full' : 'w-0 group-hover:w-full'
               }`}></span>
