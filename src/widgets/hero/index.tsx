@@ -41,7 +41,7 @@ export function Hero() {
               </h1>
               
               <p className="text-xl text-white/90 mb-8 leading-relaxed animate-fade-in-up delay-300">
-                АМД — объединение молодых дагестанцев в Москве. Поддерживаем традиции, 
+                АМД — объединение молодых дагестанцев <span className="text-accent">в Москве</span>. Поддерживаем традиции,
                 создаем новые возможности и помогаем друг другу в столице.
               </p>
               
